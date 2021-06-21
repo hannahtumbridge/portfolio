@@ -11,6 +11,7 @@ header{
     display: flex;
     flex-flow: column;
     align-content: center;
+    cursor: pointer;
 }
 
 .logo-caption {
@@ -22,6 +23,10 @@ header{
     letter-spacing: 1.12px;
    }
 
+.logo-caption:hover {
+    color: #4187a1;
+    cursor: pointer;
+}
 
 body{
     background-color: #FEF9E8;
@@ -46,6 +51,14 @@ h1{
 max-width: 100%;
 }
 
+a {
+    color: #3e3b3b;
+}
+a:hover{
+    text-decoration: underline;
+    color: #c55638;
+    cursor: pointer;
+}
 
 footer {
     font-family:'PT Serif', serif;
