@@ -1,0 +1,67 @@
+header{
+    margin: 2rem;
+    padding: 1rem;
+}
+#banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.logo-caption {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3e3b3b;
+    letter-spacing: 1.12px;
+   }
+
+
+body{
+    background-color: #FEF9E8;
+}
+
+#hero-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    color: #3e3b3b;
+    position:relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    word-wrap: break-word;
+}
+
+.reponsive-arrow {
+max-width: 100%;
+}
+
+
+footer {
+    font-family:'PT Serif', serif;
+    color: #3e3b3b;
+    margin: 1rem;
+	padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.email-address {
+margin-left: auto;
+flex-grow: 4;
+}
+.social-media{
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 12px 12px;
+  }
