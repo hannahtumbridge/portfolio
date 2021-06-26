@@ -125,11 +125,11 @@ padding:1rem;
   }
 
 a {
-    color: #3e3b3b;
+  color: inherit;
+  text-decoration: inherit;
 }
 a:hover{
     text-decoration: underline;
-    color: #c55638;
     cursor: pointer;
 }
 
@@ -144,14 +144,21 @@ footer {
 .email-address {
 margin-left: auto;
 flex-grow: 4;
+color: #3e3b3b
 }
 .social-media{
     margin-right: auto;
     display: flex;
     flex-direction: row;
     padding: 0 0 12px 12px;
+    color: #3e3b3b
   }
 .read-more{
+    color: #3e3b3b;
+    font-size:1.2rem;
+}
+.read-more:hover, .social-media:hover, .email-address:hover{
+    color:#c55638;
     font-family:'PT Serif', serif;
     color: #3e3b3b;
 }
@@ -296,6 +303,7 @@ flex-grow: 4;
     font-size: 3rem;
     padding: 1rem;
     font-family:'PT Serif', serif;
+    font-weight: bold;
   }
   
   .menu-wrap .menu > div > div > ul > li > a {
@@ -303,3 +311,19 @@ flex-grow: 4;
     text-decoration: none;
     transition: color 0.4s ease;
   }
+
+.project-menu{
+  cursor: pointer;
+  transition: 0.4s;
+  list-style: none;
+  color: #FEF9E8;
+  font-size: 3rem;
+  padding: 1rem;
+  font-family:'PT Serif', serif;
+  font-weight: bold;
+  }
+.project-sub{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
