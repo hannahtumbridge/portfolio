@@ -73,6 +73,7 @@ h2{
     word-wrap: break-word;
     font-weight: bold;
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 h4{
@@ -89,7 +90,8 @@ max-width: 100%;
     width: 80px;
     height: 6px;
     background-color: #c55638;
-    margin: 16px 0; 
+    margin: 0px 0px 16px 0px;
+    display: flex;
 }
 
 .case-study-card {
@@ -103,22 +105,37 @@ align-content: flex-start;
 .left-card{
 grid-column: span 6;
 padding:1rem;
+align-items: center;
+justify-content: center;
 }
 
 .right-card{
 grid-column: span 6;
 padding:1rem;
 }
+
+.image-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  }
+  
 .card-image{
     border-radius: 1rem;
     border: solid 0.5rem #4187a1;
     max-width: 600px;
-    max-height: auto;
+    /*max-height: auto;*/
+    display: flex;
 }
 
 .card-text{
     word-wrap: break-word;
-    align-content: flex-start;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .bounce {
     animation: bounce 2s infinite;
@@ -184,21 +201,27 @@ color: #3e3b3b
     position: absolute;
     z-index: 2;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     opacity: 0;
+    left: -30px;
+    top:-40px;
   }
   
   .menu-wrap .hamburger {
     position: absolute;
     z-index: 1;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     padding: 1rem;
-    background: transparent;
+    background: #4187a1;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    left: -30px;
+    top:-40px;
+    box-shadow: 3px 3px 3px #888888;
   }
   
   /* Hamburger Line */
@@ -337,6 +360,14 @@ color: #3e3b3b
     .right-card {
     grid-column: span 6 !important;
     }
+    .card-text{
+      align-content: flex-start;
+      text-align: left;
+      display: block;
+  }
+  .case-study-card {
+    margin: 0;
+  }
 }
 /*desktops, 992px and up*/
  @media (min-width: 992px){
@@ -361,9 +392,10 @@ color: #3e3b3b
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .left-card {
-    grid-column: span 12;
-    }
-    .right-card {
-    grid-column: span 12;
-    }
+  grid-column: span 12;
+  }
+
+  .right-card {
+  grid-column: span 12;
+  }
 }
