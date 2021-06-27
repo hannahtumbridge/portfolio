@@ -37,8 +37,6 @@ body{
     background-color: #FEF9E8;
     border: solid 1.2rem #ffffff;
     margin: 0;
-    display: grid;
-    justify-content: space-between;
 }
 
 #hero-content{
@@ -48,6 +46,7 @@ body{
     flex-direction: column;
     margin-left:  15%;
     margin-right: 15%;
+    padding: 2rem;
 }
 
 h1{
@@ -93,12 +92,9 @@ max-width: 100%;
 }
 
 .case-study-card {
-display: grid;
-grid-template-columns: repeat(12, 1fr);
-margin: 15%;
-align-content: flex-start;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 15%;
 }
-
 
 .left-card{
 grid-column: span 6;
@@ -109,10 +105,14 @@ padding:1rem;
 grid-column: span 6;
 padding:1rem;
 }
+
+#ato-card, #story-dogs-card, #dog-days-card{
+
+}
 .card-image{
     border-radius: 1rem;
     border: solid 0.5rem #4187a1;
-    max-width: 600px;
+    max-width: 100%;
     max-height: auto;
 }
 
@@ -127,6 +127,7 @@ padding:1rem;
 a {
   color: inherit;
   text-decoration: inherit;
+  font-size: inherit;
 }
 a:hover{
     text-decoration: underline;
@@ -137,14 +138,14 @@ footer {
     font-family:'PT Serif', serif;
     color: #3e3b3b;
     margin: 1rem;
-	padding: 2rem;
+	  padding: 2rem;
     display: flex;
     flex-direction: row;
 }
 .email-address {
-margin-left: auto;
-flex-grow: 4;
-color: #3e3b3b
+  margin-left: auto;
+  flex-grow: 4;
+  color: #3e3b3b
 }
 .social-media{
     margin-right: auto;
@@ -155,7 +156,7 @@ color: #3e3b3b
   }
 .read-more{
     color: #3e3b3b;
-    font-size:1.2rem;
+    font-size:inherit;
 }
 .read-more:hover, .social-media:hover, .email-address:hover{
     color:#c55638;
@@ -163,17 +164,6 @@ color: #3e3b3b
     color: #3e3b3b;
 }
 
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-}
 /* menu*/
 .menu-wrap {
     position: fixed;
@@ -326,4 +316,82 @@ color: #3e3b3b
   padding: 0 18px;
   display: none;
   overflow: hidden;
+}
+/*media queries*/
+/* Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) { 
+  .case-study-card {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 15%;
+    }
+    
+}
+/*desktops, 992px and up*/
+ @media (min-width: 992px){
+  .left-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    margin: 2rem;
+    }
+    
+    .right-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    }
+
+    .case-study-card {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      margin: 15%;
+      }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .left-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    margin: 2rem;
+    }
+    
+    .right-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    }
+
+    .case-study-card {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      margin: 15%;
+      }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .left-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    margin: 2rem;
+    }
+
+    .card-image{
+
+    }
+    
+    .right-card{
+    grid-column: span 12;
+    padding: 0;
+    align-content: center;
+    }
+
+    .case-study-card {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      margin: 15%;
+      }
 }
