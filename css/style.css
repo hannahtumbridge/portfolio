@@ -327,3 +327,43 @@ color: #3e3b3b
   display: none;
   overflow: hidden;
 }
+
+/*media queries*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .left-card {
+    grid-column: span 6 !important;
+    }
+    .right-card {
+    grid-column: span 6 !important;
+    }
+}
+/*desktops, 992px and up*/
+ @media (min-width: 992px){
+  .left-card {
+    grid-column: span 12;
+    }
+    .right-card {
+    grid-column: span 12;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .left-card {
+    grid-column: span 12;
+    }
+    .right-card {
+    grid-column: span 12;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .left-card {
+    grid-column: span 12;
+    }
+    .right-card {
+    grid-column: span 12;
+    }
+}
