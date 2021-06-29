@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Serif">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Fira+Sans>">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="../portfolio/JS/index.js"></script>
+</head>
+<header>
+  <nav id="banner">
+  <div class = "menu-wrap">
+    <input type="checkbox" class="toggler">
+     <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+         <ul>
+            <li><a href="../portfolio/aboutme.html">About Me</a></li>
+            <li><span id="expandWorkList"><a href="#">Projects </a></span></li>
+              <ul id= "workList">
+                <li><a href="#">Story Dogs</a></li>
+                <li><a href="#">Australian Tax Office</a></li>
+               <li><a href="#">Dog Days</a></li>
+              </ul>
+             <li><a href="#">Contact</a></li>
+              <div= class="social-media-menu">
+              <a href = "#"><img src="../portfolio/image/instagram-icon.svg"></a>
+              <a href = "#"><img src="../portfolio/image/linkedin-icon.svg"></a>
+             </div>
+         </ul> 
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="logo">
+    <img src="../portfolio/image/4187A1largelogo.svg">
+    <div class= "logo-caption">Hannah Moore</div>
+  </div>
+  </nav>
+</header>
+<body>
+<main class = "case-study-card">
+  <div class="left-card">
+    <div class ="image-wrapper">
+      <img class= "card-image" src="..//portfolio/image/profile-image.jpg">
+    </div>
+  </div>
+  <div class = "right-card">
+    <div class= "card-text"> 
+    <h1 class="b">Hi, I'm Hannah.</h1>
+      <div class="stub"></div>
+    <h4>I'm a freelance UX/UI Designer and Product Developer  based in Sydney, Australia. I'm an end-to-end designer who loves solving challenging problems.  
+<br>
+<br>
+      Prior to my UX/UI journey, I worked as a Product Developer and Production Coordinator working on brands such as Lorna Jane, MJ Bale and Article One.  I fell in love with the Development building process for products from Sourcing Fabrics, fitting garments and to the delivery of finished goods.   I’m curious by nature on how things are built and how they go together. 
+<br> 
+<br> 
+      Whilst at Bond-Eye Australia, I watched a UX/UI based creative team assess, analyse and redesign the label into a more successful and customer focused fashion brand.
+<br>
+<br>     
+      I wanted in from that moment on.
+<br>
+<br>
+      I'm always trying to grow and learn something new. I strive to create simple, original, and impactful user experiences to improve myself as a Designer.
+<br>
+<br>My free time is usually spent between Final Fantasy XIV, streaming, sewing and reading a whole bunch of Fantays Novels.</h4>
+    </div>
+  </div>
+</main>
+</body>
+<footer>
+  <a href="#" div class= "email-address">email address</div>
+  <a href="#" div class= "social-media">resume</div>
+  <a href="#" div class= "social-media">linkedin</div>
+  <a href="#" div class= "social-media">instagram</div>
+</div>
+</footer>
+<script>
+  $("#workList").toggle(false);
+  $("#expandWorkList").on("click",function () {
+  $("#workList").slideToggle();
+}) 
+</script>
+
+</html>

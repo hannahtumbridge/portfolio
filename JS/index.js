@@ -1,4 +1,6 @@
-/*collapsable submenu*/
-$(".plus-icon").on("click", function(){
-  $(".project-sub").toggle("slow");
-});
+/*collapsable submenu
+$("#workList").toggle(false);
+$("#expandWorkList").on("click",function () {
+$("#workList").slideToggle();
+})
+*/

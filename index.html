@@ -4,8 +4,8 @@
   <link href="./css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Serif">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Fira+Sans>">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="../portfolio/JS/index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <header>
   <nav id="banner">
@@ -16,17 +16,15 @@
     <div>
       <div>
          <ul>
-           <li><a href="#">About Me</a></li>
-           <li id = "project-menu">Projects <img class="plus-icon" src="../portfolio/image/plus-icon.svg"></li>
-           <ul>
-            <div class= project-sub>
-              <a href="#">Story Dogs</a>
-              <a href="#">Australian Tax Office</a>
-              <a href="#">Dog Days</a>
-            </div>
-           </ul>
-           <li><a href="#">Contact</a></li>
-            <div= class="social-media-menu">
+            <li><a href="../portfolio/aboutme.html">About Me</a></li>
+            <li><span id="expandWorkList"><a href="#">Projects </a></span></li>
+              <ul id= "workList">
+                <li><a href="#">Story Dogs</a></li>
+                <li><a href="#">Australian Tax Office</a></li>
+               <li><a href="#">Dog Days</a></li>
+              </ul>
+             <li><a href="#">Contact</a></li>
+              <div= class="social-media-menu">
               <a href = "#"><img src="../portfolio/image/instagram-icon.svg"></a>
               <a href = "#"><img src="../portfolio/image/linkedin-icon.svg"></a>
              </div>
@@ -95,4 +93,12 @@
     <a href="#" div class= "social-media">instagram</div>
 </div>
 </footer>
+
+<script>
+  $("#workList").toggle(false);
+  $("#expandWorkList").on("click",function () {
+  $("#workList").slideToggle();
+}) 
+</script>
+
 </html>
