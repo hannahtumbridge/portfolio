@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="999" height="144" viewBox="0 0 999 144">
+  <g id="Group_336" data-name="Group 336" transform="translate(-461 -2530)">
+    <g id="Group_288" data-name="Group 288" transform="translate(461 2530)">
+      <g id="Group_283" data-name="Group 283">
+        <text id="Research_" data-name="Research " transform="translate(0 135)" fill="#fef9e8" font-size="30" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0">Research </tspan></text>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(10)" fill="#fef9e8" stroke="#fef9e8" stroke-width="1">
+          <circle cx="58" cy="58" r="58" stroke="none"/>
+          <circle cx="58" cy="58" r="57.5" fill="none"/>
+        </g>
+        <text id="_1" data-name="1" transform="translate(68 79)" fill="#4187a1" font-size="56" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="-15.82" y="0">1</tspan></text>
+      </g>
+      <g id="Group_284" data-name="Group 284" transform="translate(222)">
+        <text id="Define" transform="translate(12 135)" fill="#fef9e8" font-size="30" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0">Define</tspan></text>
+        <g id="Ellipse_1-2" data-name="Ellipse 1" fill="#fef9e8" stroke="#fef9e8" stroke-width="1">
+          <circle cx="58" cy="58" r="58" stroke="none"/>
+          <circle cx="58" cy="58" r="57.5" fill="none"/>
+        </g>
+        <text id="_2" data-name="2" transform="translate(58 79)" fill="#4187a1" font-size="56" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="-15.82" y="0">2</tspan></text>
+      </g>
+      <g id="Group_285" data-name="Group 285" transform="translate(434)">
+        <text id="Ideate" transform="translate(13 135)" fill="#fef9e8" font-size="30" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0">Ideate</tspan></text>
+        <g id="Ellipse_1-3" data-name="Ellipse 1" fill="#fef9e8" stroke="#fef9e8" stroke-width="1">
+          <circle cx="58" cy="58" r="58" stroke="none"/>
+          <circle cx="58" cy="58" r="57.5" fill="none"/>
+        </g>
+        <text id="_3" data-name="3" transform="translate(58 79)" fill="#4187a1" font-size="56" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="-15.82" y="0">3</tspan></text>
+      </g>
+      <g id="Group_286" data-name="Group 286" transform="translate(646)">
+        <text id="Prototype" transform="translate(0 135)" fill="#fef9e8" font-size="30" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0">Prototype</tspan></text>
+        <g id="Ellipse_1-4" data-name="Ellipse 1" transform="translate(10)" fill="#fef9e8" stroke="#fef9e8" stroke-width="1">
+          <circle cx="58" cy="58" r="58" stroke="none"/>
+          <circle cx="58" cy="58" r="57.5" fill="none"/>
+        </g>
+        <text id="_4" data-name="4" transform="translate(68 79)" fill="#4187a1" font-size="56" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="-15.82" y="0">4</tspan></text>
+      </g>
+      <g id="Group_287" data-name="Group 287" transform="translate(883)">
+        <text id="Test" transform="translate(28 135)" fill="#fef9e8" font-size="30" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="0" y="0">Test</tspan></text>
+        <g id="Ellipse_1-5" data-name="Ellipse 1" fill="#fef9e8" stroke="#fef9e8" stroke-width="1">
+          <circle cx="58" cy="58" r="58" stroke="none"/>
+          <circle cx="58" cy="58" r="57.5" fill="none"/>
+        </g>
+        <text id="_5" data-name="5" transform="translate(58 79)" fill="#4187a1" font-size="56" font-family="PTSerif-Bold, PT Serif" font-weight="700"><tspan x="-15.82" y="0">5</tspan></text>
+      </g>
+      <line id="Line_65" data-name="Line 65" x2="74" transform="translate(137 52.656)" fill="none" stroke="#fef9e8" stroke-width="1"/>
+      <line id="Line_66" data-name="Line 66" x2="74" transform="translate(349 52.656)" fill="none" stroke="#fef9e8" stroke-width="1"/>
+      <line id="Line_67" data-name="Line 67" x2="74" transform="translate(561 52.656)" fill="none" stroke="#fef9e8" stroke-width="1"/>
+      <line id="Line_68" data-name="Line 68" x2="74" transform="translate(798 52.656)" fill="none" stroke="#fef9e8" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

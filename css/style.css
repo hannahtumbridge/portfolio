@@ -77,6 +77,10 @@ h1{
   margin-bottom: 1rem;
 }
 
+#design-statement{
+  color: var(--accentBlue);
+}
+
 
 li:hover{
     text-decoration: underline;
@@ -99,6 +103,9 @@ h4{
     color: var(--accentGrey);
 }
 
+p{
+
+}
 .reponsive-arrow {
 max-width: 100%;
 }
@@ -116,6 +123,13 @@ display: grid;
 grid-template-columns: repeat(12, 1fr);
 margin: 15%;
 align-content: flex-start;
+}
+
+.full-card{
+  grid-column: var(--cols-12);
+  padding: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 
@@ -145,14 +159,26 @@ padding:1rem;
     /*max-height: auto;*/
     display: flex;
 }
-
-.card-text{
+.center-card{
+  word-wrap: break-word;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
     word-wrap: break-word;
     align-content: center;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+.casestudy-breaker{
+  background-color: var(--accentBlue);
+  width: 100%;
+  height: 165px;
 }
 .bounce {
     animation: bounce 2s infinite;
