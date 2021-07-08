@@ -1,5 +1,7 @@
 :root {
+  --cols-4: span 4;
   --cols-6: span 6;
+  --cols-8: span 8;
   --cols-12: span 12;
   --accentBlue: #4187a1;
   --accentOrange: #c55638;
@@ -64,7 +66,6 @@ h1{
     position:relative;
     word-wrap: break-word;
     font-weight: bold;
-    font-size: 3rem;
     margin-bottom: 4rem;
 }
 .b{
@@ -75,6 +76,7 @@ h1{
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #design-statement{
@@ -96,7 +98,7 @@ h2{
     margin-bottom: 0.5rem;
 }
 
-h4{
+h4, h3{
     font-family: 'Fira Sans', sans-serif;
     font-weight: normal;
     color: var(--accentGrey);
@@ -152,19 +154,48 @@ grid-column: var(--cols-6);
 padding:1rem;
 }
 
+.col-4 {
+  grid-column: var(--cols-4);
+}
+.col-6 {
+  grid-column: var(--cols-6);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.col-8 {
+  grid-column: var(--cols-8);
+}
+.col-12 {
+  grid-column: var(--cols-12);
+}
+
+.tags {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .image-wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   }
-  
+
 .card-image{
     border-radius: 1rem;
     border: solid 0.5rem var(--accentBlue);
     max-width: 600px;
     /*max-height: auto;*/
     display: flex;
+}
+
+.hero-image{
+  height: 80vh;
+  min-height: 560px;
+  display:flex;
+  border-radius: 1rem;
+  border: solid 0.5rem var(--accentBlue);
 }
 .center-card{
   word-wrap: break-word;
@@ -191,6 +222,9 @@ padding:1rem;
     animation: bounce 2s infinite;
   }
 
+.bold {
+font-weight: bold;
+}
 a {
   color: inherit;
   text-decoration: inherit;
