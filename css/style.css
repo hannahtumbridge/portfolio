@@ -81,7 +81,6 @@ h1{
   color: var(--accentBlue);
 }
 
-
 li:hover{
     text-decoration: underline;
     cursor: pointer;  
@@ -103,9 +102,17 @@ h4{
     color: var(--accentGrey);
 }
 
-p{
-
+p, li{
+  font-family: 'Fira Sans', sans-serif;
+  color: var(--accentGrey)
 }
+
+.sub-heading{
+  color: var(--accentGrey);
+  font-weight: bold;
+  font-family: 'Fira Sans', sans-serif;
+}
+
 .reponsive-arrow {
 max-width: 100%;
 }
