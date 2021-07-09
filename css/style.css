@@ -106,7 +106,8 @@ h4, h3{
 
 p, li{
   font-family: 'Fira Sans', sans-serif;
-  color: var(--accentGrey)
+  color: var(--accentGrey);
+  font-size: 100%;
 }
 
 .sub-heading{
@@ -125,6 +126,7 @@ max-width: 100%;
     background-color: var(--accentOrange);
     margin: 0px 0px 16px 0px;
     display: flex;
+    align-items: center;
 }
 
 .case-study-card {
@@ -134,14 +136,13 @@ margin: 15%;
 align-content: flex-start;
 }
 
-.full-card{
-  grid-column: var(--cols-12);
-  padding: 1rem;
-  margin-left: 15%;
-  margin-right: 15%;
+.center-card{
+  word-wrap: break-word;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-
-
 .left-card{
 grid-column: var(--cols-6);
 padding:1rem;
@@ -167,12 +168,22 @@ padding:1rem;
 }
 .col-12 {
   grid-column: var(--cols-12);
+  padding: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .tags {
-  padding: 4rem 0;
   display: flex;
   justify-content: space-between;
+  background-color: var(--accentCream);
+  border-radius: 0.25rem;
+}
+
+.tag{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
 }
 
 .image-wrapper{
@@ -197,14 +208,8 @@ padding:1rem;
   border-radius: 1rem;
   border: solid 0.5rem var(--accentBlue);
 }
-.center-card{
-  word-wrap: break-word;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
+
+
 .card-text {
     word-wrap: break-word;
     align-content: center;
@@ -221,7 +226,31 @@ padding:1rem;
 .bounce {
     animation: bounce 2s infinite;
   }
-
+/* case study timeline */
+.timeline-casing {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  padding: 0 12rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  }
+  
+.timeline {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--accentCream);
+  box-shadow: 3px 3px 3px #00000088;
+  }
+.timeline > *{
+  align-content: center;
+}
 .bold {
 font-weight: bold;
 }
